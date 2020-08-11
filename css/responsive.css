@@ -1,0 +1,82 @@
+/* MEDIAQUERIES */
+
+/* Respoonsive Large Displays */
+
+@media screen and (max-width:1020px){
+	ul.nav-menu{
+		position:absolute;
+		top:50px;
+		width:100%;
+		height:0;
+		padding:0;
+		overflow:hidden;
+	}
+	nav.navigation{
+		padding:0;
+		height: 0;
+	}
+	.nav-logo{
+		float: none;
+		text-align: center;
+		padding: 2vw 0;
+	}
+	ul.nav-menu.active{
+		height:auto;
+	}
+	ul.nav-menu li{
+        width:100%;
+        padding-left: 0;
+		padding-right: 0;
+	}
+	ul.nav-menu li a{
+		width:100%;
+		padding:0;
+		text-align:center;
+	}
+	ul.nav-menu li a:hover{
+		background-color:#fff;
+	}
+	.nav-toggle{
+		display:block;
+	}
+	h1.jumbo-text{
+		font-size: 5rem;
+	}
+}
+@media screen and (min-width:1021px){
+	.nav-overlay.active{
+		visibility:hidden;
+		opacity:0;
+	}
+}
+
+/* Tablet or iPad Display */
+
+@media screen and (max-width: 768px){
+	h1.jumbo-text{
+		font-size: 8vw;
+	}
+}
+
+/* Mobile Screen  */
+
+@media screen and (max-width: 567px){
+	h1.jumbo-text{
+		font-size: 2rem;
+		padding-top: 11vw;
+	}
+
+	
+    div.chat-toggle-container{
+        bottom: 3rem;
+        right: 1rem;
+    }
+
+    div.chat-box{
+        width: 80%;
+        bottom: 8rem;
+        right: 1rem;
+    }
+
+
+}

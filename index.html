@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Maxeon</title>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<section class="container-fluid section-1">
+		<nav class="navigation">
+			<div class="nav-logo">Maxeon</div>
+			<ul class="nav-menu">
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Use Cases</a></li>
+				<li><a href="#">Features</a></li>
+				<li><a href="#">Products</a></li>
+			</ul>
+			<div class="nav-toggle">
+				<span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+			</div>
+		</nav>
+		<div class="nav-overlay"></div>
+		<!-- Main section -->
+			<div class="row">
+				<div class="col-5">
+					<h1 class="jumbo-text">Where words fail, Music speaks.</h1>
+				</div>
+			</div>
+		</section>
+
+		    <!-- chat box -->
+			<div class="chat-box">
+				<div class="chat-header">
+					<h2>Hi There</h2>
+					<p class="p-a">Hello Ask Us Anything, Share Your Feedback</p>
+					<p class="p-b">The team typically replies in a few minutes.</p>
+				</div>
+				<div id="convo_desc" class="chat-temp">
+					<h5>Start a conversation </h5>
+					<p>The team typically replies in a few minutes.</p>
+					<div id="input_trigger" class="chat-send">
+						<p>New Conversation </p>
+						<span class="material-icons send-trigger">send</span>
+					</div>
+				</div>
+				<div id="chat_area" class="chat-area">
+					<div id="text_node" class="text-node">
+						<div id="bot-output" class="bot-chat sb3"></div>
+					</div>
+					<input id="input_text" class="chat-input" type="text" onfocus="this.value=''" placeholder="Write a reply...">
+					<span id="send_click" class="material-icons send-click" onclick="myFunc()">send</span>
+				</div>
+			</div>
+			<!-- chat box -->
+		
+			<!-- chat toggle button -->
+			<div class="chat-toggle-container">
+				<span class="chat-toggle"><img height="40px" src="images/sparrow.png"></span>
+				<span class="chat-toggle-active material-icons">clear</span>
+			</div>
+		
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
